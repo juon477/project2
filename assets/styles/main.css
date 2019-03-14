@@ -1,0 +1,60 @@
+body{
+
+}
+
+.header {
+
+}
+
+/* main */
+.main {
+    display: flex;
+    
+    
+}
+
+.main .aside {
+    width: 8%;
+    padding: 40px;
+}
+ 
+.main section {
+    width: 80%;
+}
+
+/* aside */
+ 
+.aside {
+    display: block;
+    padding: 10px;
+    color: greenyellow;
+}
+
+.aside a {
+    display: block;
+    padding: 10px;
+    color: pink;
+}
+
+/* section */
+
+section{
+    display: flex;
+    padding: 20px;
+    flex: wrap;
+
+}
+
+/* article */
+
+.article {
+    width: 20%;
+    margin: 20px;
+    position: relative;
+
+}
+
+.article div {
+   
+    
+}
