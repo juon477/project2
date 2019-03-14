@@ -1,9 +1,17 @@
+
+/*
+globals
+*/
 body{
 
 }
 
 .header {
 
+}
+
+* {
+    box-sizing: border-box;
 }
 
 /* main */
@@ -14,12 +22,15 @@ body{
 }
 
 .main .aside {
-    width: 8%;
-    padding: 40px;
+    width: 15%;
+    padding: 20px;
 }
  
 .main section {
-    width: 80%;
+    display: flex;
+    width: 85%;
+    margin: 0 -10px;
+
 }
 
 /* aside */
@@ -36,25 +47,59 @@ body{
     color: pink;
 }
 
-/* section */
-
-section{
-    display: flex;
-    padding: 20px;
-    flex: wrap;
-
-}
 
 /* article */
 
 .article {
-    width: 20%;
-    margin: 20px;
+    width: 25%;
     position: relative;
+    padding: 0 10px;
+}
 
+.article img {
+    width: 100%;
 }
 
 .article div {
-   
+    position: absolute;
+    top: 0;
+    right: 10px;
+    left: 10px;
+    bottom: 0;
+    color:#ffff;
+    padding: 10px;
+}
+
+.article h2 {
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.article p {
+   font-size: 15px;
+   margin: 0%;
+   padding: 0 100 20 0;    
+}
+.article ul {
+    display:flex;
+    justify-content: space-between;
+    
+    
+    /* width: 20%;
+    padding: 20px; */
+
+}
+
+.article li {  
+    top: 20px ;
+    
+
+}
+
+.article li a {
+    
+    margin: 20 60 20 10;
+    color: #ffff;
+    text-decoration: none;
     
 }
